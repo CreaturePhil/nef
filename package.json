@@ -1,6 +1,6 @@
 {
   "name": "nef",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Proxy-based database",
   "main": "index.js",
   "scripts": {
