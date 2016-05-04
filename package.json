@@ -1,0 +1,21 @@
+{
+  "name": "nef",
+  "version": "1.0.0",
+  "description": "Proxy-based database",
+  "main": "index.js",
+  "scripts": {
+    "test": "eslint . && ava"
+  },
+  "keywords": [
+    "database",
+    "proxy",
+    "json",
+    "object"
+  ],
+  "author": "Philip La <birkal@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "ava": "^0.14.0",
+    "eslint": "^2.9.0"
+  }
+}
