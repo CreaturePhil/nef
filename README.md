@@ -1,7 +1,7 @@
 # nef
 
-[![build status](https://img.shields.io/travis/CreaturePhil/react-starter-kit/master.svg?style=flat-square)](https://travis-ci.org/CreaturePhil/react-starter-kit)
-[![devDependency Status](https://david-dm.org/CreaturePhil/react-starter-kit/dev-status.svg?style=flat-square)](https://david-dm.org/CreaturePhil/react-starter-kit#info=devDependencies)
+[![build status](https://img.shields.io/travis/CreaturePhil/nef/master.svg?style=flat-square)](https://travis-ci.org/CreaturePhil/nef)
+[![devDependency Status](https://david-dm.org/CreaturePhil/nef/dev-status.svg?style=flat-square)](https://david-dm.org/CreaturePhil/nef#info=devDependencies)
 
 
 Proxy-based database
@@ -88,7 +88,7 @@ Delete a key from the object.
 db.users.remove('smitty');
 ```
 
-# set(key, value)
+### set(key, value)
 
 Set a key to a value.
 
