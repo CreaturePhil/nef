@@ -2,6 +2,7 @@
   "name": "nef",
   "version": "1.0.3",
   "description": "Proxy-based database",
+  "repository": "CreaturePhil/nef",
   "main": "index.js",
   "scripts": {
     "test": "eslint . && ava"
