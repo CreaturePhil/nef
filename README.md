@@ -15,7 +15,7 @@ npm install nef --save
 ## Usage
 
 ```js
-const db = require('nef')({_save: function() {}});
+const db = require('nef')();
 db.money.set('phil', 100);
 console.log(db.money.get('phil')); // 100
 ```
@@ -24,14 +24,14 @@ console.log(db.money.get('phil')); // 100
 
 ### nef(data)
 
-Creates a nef in-memory database. `data` requires `_save` function key property.
+Creates a nef in-memory database. `data` is optional and requires `_save`
+function key property.
 Each key of the database can be referred to as a collection and it returns
 methods.
 
 ```js
 const nef = require('nef');
-const noop = function() {};
-const db = nef({_save: noop});
+const db = nef();
 ```
 
 ### get(key, defaultValue)

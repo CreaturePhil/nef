@@ -39,7 +39,10 @@ const nefHandler = {
   }
 };
 
+const noop = function() {};
+
 function nef(data) {
+  if (!data) data = {_save: noop};
   return new Proxy(data, nefHandler);
 }
 

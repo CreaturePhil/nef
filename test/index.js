@@ -1,7 +1,7 @@
 import test from 'ava';
 import nef from '../';
 
-const db = nef({_save: function() {}});
+const db = nef();
 
 test('get and set', t => {
   t.is(db.foo.get('bar'), undefined);
