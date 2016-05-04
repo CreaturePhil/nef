@@ -42,7 +42,7 @@ Get a key. Use a default value of the key does not exist.
 // database
 {
   powers: {
-    flash: 'superspeed'
+    flash: 'super speed'
   },
   money: {
     john: 3,
@@ -50,7 +50,7 @@ Get a key. Use a default value of the key does not exist.
   }
 }
 
-db.powers.get('flash'); // superspeed
+db.powers.get('flash'); // super speed
 db.powers.get('laser dude', 'laser vision'); // laser vision
 db.money.get('john'); // 3
 ```
