@@ -21,17 +21,17 @@ const nefHandler = {
 
       put(key, fn) {
         object[key] = fn(object[key]);
-        target._save(name);
+        target._save(name, object);
       },
 
       remove(key) {
         delete object[key];
-        target._save(name);
+        target._save(name, object);
       },
 
       set(key, value) {
         object[key] = value;
-        target._save(name);
+        target._save(name, object);
       }
     };
 
