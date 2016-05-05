@@ -29,6 +29,9 @@ test('put', t => {
   t.is(db.foo.get('bar'), 2);
   db.foo.put('baz', val => Math.sqrt(val));
   t.is(db.foo.get('baz'), 7);
+  t.is(db.foo.get('zoo'), undefined);
+  db.foo.put('zoo', val => val * 100, 10);
+  t.is(db.foo.get('zoo'), 1000);
 });
 
 test('remove', t => {

@@ -80,9 +80,10 @@ Returns an array of the object's properties.
 db.users.keys(); // ['phil', 'mike', 'dan']
 ```
 
-### put(key, fn)
+### put(key, fn, defaultValue)
 
-Applies a function to the key value and saves it.
+Applies a function to the key value and saves it. Use a default value if
+the key does not exist.
 
 ```js
 db.money.put('james', (val) => val + 2);

@@ -19,8 +19,9 @@ const nefHandler = {
         return Object.keys(object);
       },
 
-      put(key, fn) {
-        object[key] = fn(object[key]);
+      put(key, fn, defaultValue) {
+        const value = object[key];
+        object[key] = fn(typeof value !== 'undefined' ? value : defaultValue);
         target._save(name, object);
       },
 
