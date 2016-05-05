@@ -122,7 +122,7 @@ db.tickets.set('user2', [7,5,2]);
 
 # Plugins
 
-Plugins passes an object to nef to allow such things as persist data when
+Plugins passes an object to nef to allow such things as persisting data when
 saving.
 
 - [nef-fs](https://github.com/CreaturePhil/nef-fs)
