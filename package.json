@@ -1,6 +1,6 @@
 {
   "name": "nef",
-  "version": "1.0.3",
+  "version": "1.1.0",
   "description": "Proxy-based database",
   "repository": "CreaturePhil/nef",
   "main": "index.js",
