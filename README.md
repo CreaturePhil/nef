@@ -34,6 +34,14 @@ const nef = require('nef');
 const db = nef();
 ```
 
+```js
+const db = require('nef')({
+  _save(name, object) {
+    console.log('Save to some location!');
+  }
+});
+```
+
 ### get(key, defaultValue)
 
 Get a key. Use a default value of the key does not exist.
