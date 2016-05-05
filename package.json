@@ -5,7 +5,7 @@
   "repository": "CreaturePhil/nef",
   "main": "index.js",
   "scripts": {
-    "test": "eslint . && ava"
+    "test": "eslint . && tape test/index.js"
   },
   "keywords": [
     "database",
@@ -16,7 +16,6 @@
   "author": "Philip La <birkal@outlook.com>",
   "license": "MIT",
   "devDependencies": {
-    "ava": "^0.14.0",
     "eslint": "^2.9.0",
     "tape": "^4.5.1"
   }
