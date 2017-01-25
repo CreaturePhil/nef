@@ -1,3 +1,5 @@
+'use strict';
+
 const nefHandler = {
   get(target, name) {
     if (!target[name]) target[name] = {};
